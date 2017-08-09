@@ -9,10 +9,9 @@ public class GildedRoseTest {
 	//This is a comment.
     @Test
     public void foo() {
-        Item[] items = new Item[] { new Item("foo", 0, 0) };
-        GildedRose app = new GildedRose(items);
-        app.updateQuality();
-        //assertEquals("pleb", app.items[1].name);
+        String name="Ali";
+
+        assertEquals("Meow", name);
     }
 
 }
