@@ -11,7 +11,7 @@ public class GildedRoseTest {
     public void foo() {
         String name="Ali";
 
-        assertEquals("Meow", name);
+        assertEquals("Ali", name);
     }
 
 }
